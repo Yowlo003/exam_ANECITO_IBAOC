@@ -1,0 +1,107 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #444;
+    padding: 1em 0;
+}
+  
+.nav {
+    display: flex;
+    justify-content: space-evenly; /* or space-between, or space-around */
+    max-width: 800px; /* You can adjust this value */
+    margin: 0 auto;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-content h2 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 40px;
+}
+
+
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  gap: 30px;
+  max-width: 900px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}

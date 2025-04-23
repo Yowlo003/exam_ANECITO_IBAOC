@@ -1,0 +1,132 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #e9e0e0;
+}
+
+.header {
+    background-color: #4e4c4c;
+    padding: 1em 0;
+}
+  
+.nav {
+    display: flex;
+    justify-content: space-evenly; /* or space-between, or space-around */
+    max-width: 800px; /* You can adjust this value */
+    margin: 0 auto;
+}
+
+.nav a {
+    color: rgb(236, 232, 232);
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #ddd8d8;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #cab3b3;
+    color:#cab3b3;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.home-section {
+    margin-top: 10px;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(95, 89, 89);
+}
+
+.home-box1 {
+    margin-top: 150px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.home-content {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(199, 194, 194, 0.5);
+    border-radius: 8px;
+}
+
+.home-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color:#cab3b3;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ff4000;
+}
+
+.home-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.home-image img {
+    width: 80%; /* Adjust size */
+    max-width: 600px; /* Limit the size */
+    height: auto;
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-top: 20px;
+}
+
+.webdev {
+    margin-top: 10px;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #cab3b3;
+}
+
+.okey{
+    width: 40%;
+}
+
+.sige{
+    width: 40%;
+}
